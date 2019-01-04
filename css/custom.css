@@ -1036,3 +1036,20 @@ html .background-color-none {
 li{
 	color: transparent !important;
 }
+
+@media screen and (max-width: 768px){
+	.banner-img{
+		background-image: url('../img/slides/slider_arg.jpg'); 
+		height: 152px; 
+		background-size: 100%; 
+		background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 768px){
+	.banner-img{
+		background-image: url('../img/slides/slider_arg.jpg'); 
+		height: 500px; 
+		background-size: 100%; 
+		background-repeat: no-repeat;
+}
+}
