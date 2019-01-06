@@ -1039,17 +1039,35 @@ li{
 
 @media screen and (max-width: 768px){
 	.banner-img{
-		background-image: url('../img/slides/slider_arg.jpg'); 
-		height: 152px; 
+		background-image: url('../img/slides/slider_arg-b2s.jpg'); 
+		height: 192px; 
 		background-size: 100%; 
 		background-repeat: no-repeat;
 }
 }
 @media screen and (min-width: 768px){
 	.banner-img{
-		background-image: url('../img/slides/slider_arg.jpg'); 
-		height: 500px; 
+		background-image: url('../img/slides/slider_arg-b2s.jpg'); 
+		height: 600px; 
 		background-size: 100%; 
 		background-repeat: no-repeat;
 }
 }
+
+@media screen and (max-width: 768px){
+	.banner-img-col{
+		background-image: url('../img/slides/slider_col-b2s.jpg'); 
+		height: 192px; 
+		background-size: 100%; 
+		background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 768px){
+	.banner-img-col{
+		background-image: url('../img/slides/slider_col-b2s.jpg'); 
+		height: 600px; 
+		background-size: 100%; 
+		background-repeat: no-repeat;
+}
+}
+
